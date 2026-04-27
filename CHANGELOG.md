@@ -1,3 +1,8 @@
+dns-update 0.2.4
+================================
+- Google Cloud DNS: Chunk TXT records into 255-character strings when updating records.
+- desec.io: Fixes + Verification
+
 dns-update 0.2.3
 ================================
 - Fix deSEC provider to include trailing dots on MX, SRV, CNAME and NS record values, as required by the API.
